@@ -1,0 +1,316 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   }
+   body {
+    font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    overflow-x: hidden;
+   }
+   a {
+    text-decoration: none;
+   }
+   li {
+    list-style: none;
+   }
+
+   nav{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+
+   }
+
+/* HEADER */
+
+.nav_links{
+ display: flex;
+ }
+ .nav_links,li{
+padding: 0px 23px;
+color: rgb(198, 192, 192);
+font-size: 12px;
+margin-bottom: 2px;
+ }
+
+ header{
+    height: 43px;
+    width: 1536px;
+    background-color: rgba(0, 0, 0, 0.8);
+ }
+
+ header ul li:hover{
+    cursor: pointer;
+    color: #f4f4f7;
+ }
+
+
+ .icon:hover{
+    cursor: pointer;
+    filter: invert(0.2)
+ }
+ .icon{
+   fill: #fff;
+ }
+ .icon_apple:hover{
+    fill: #fff;
+ }
+
+/* icon */
+
+.icon_search{
+    padding-right: 30px;
+}
+
+.icon_apple{
+display: block;
+}
+/* SUB HEADER */
+.sub_header{
+    height: 43px;
+    width: 1536px;
+    background-color: #f4f4f7;
+}
+
+.inner_txt{
+    text-align: center;
+    line-height: 3;
+    align-items: center;
+    font-size: 15px;
+}
+
+
+/* Hero */
+.hero{
+    /* position: relative; */
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+    position: relative;
+    
+}
+.links,a{
+color: #378eeb;
+font-size: 18px;
+padding-top: 10px;;
+}
+
+.links a :hover{
+    text-decoration: underline;
+}
+
+.linkss{
+    margin-top: 185px;
+}
+.hereo_background{
+    /* position: absolute; */
+    left: 571px;
+    background-image: url(Mac2.1.1.png);
+    /* width: 100px;    height: 9000px; */
+    width: 643px;
+    height: 650px;
+    object-fit: cover;
+    background-repeat: no-repeat;
+
+    
+}
+.big_head{
+    color: black;
+    font-size: 22px;
+}
+
+.main_head,.hereo_image{
+    margin-left: 44px;
+    margin-top: 25px;
+   
+}
+
+/* Hero 2 */
+
+.hero2{
+    width: 1526px;
+    height: 609px;
+    background-image: url(Mac3.1.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+.big_head h1{
+    display: flex;
+    justify-content: center;
+    padding-top: 56px;
+}
+
+span{
+    color: #ca2166;
+}
+
+.big_head,p,.big_head1{
+  text-align: center;
+}
+
+.hero3{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 1526px;
+    height: 609px;
+    background-image: url(Watch.2.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+.watch2 img{                            
+    width: auto;
+    height: auto;
+}
+.watch2{
+    position: absolute;
+    top : 56px; 
+}
+.decription{
+    width: auto;
+    height: auto;
+    position: absolute;
+    top : 138px;
+    font-size: 26px;
+}
+
+/* H4 */
+.hero4{
+     width: 100%;
+    display: flex;
+    margin: 12px;
+}
+
+.iphone1{
+    width: 50%;
+    height: 609px;
+    background-image: url(iphone1.jpeg);
+    background-size: cover;
+    background-position: center;
+    
+}
+.iphone2{
+    width: 50%;
+    height: 609px;
+    background-image: url(iphone2.jpeg);
+    background-size: cover;
+    background-position: center;
+  
+}
+
+
+
+/* .big_head1{
+    display: flex;
+    font-size: 20px;
+} */
+
+.Mac4{
+    width: 50%;
+    height: 609px;
+    background-image: url(Mac4.jpeg);
+    background-size: cover;
+    background-position: center;
+    margin-right: 10px;
+    
+}
+.ipad1{
+    width: 50%;
+    height: 609px;
+    background-image: url(ipad1.jpeg);
+    background-size: cover;
+    background-position: center;
+  
+}
+
+.big_head1 h1{
+    display: flex;
+    justify-content: center;
+    padding-top: 56px;
+    color: #fff;
+    font-size: 40px;
+}
+
+.ipad1{
+    padding-top: 56px;
+}
+
+
+
+.iphone3{
+    width: 50%;
+    height: 609px;
+    background-image: url(iphone3.jpeg);
+    background-size: cover;
+    background-position: center;
+    margin-right: 10px;
+}
+.movie{
+    width: 50%;
+    height: 609px;
+    background-image: url(movie.jpeg);
+    background-size: cover;
+    background-position: center;
+    margin-right: 10px;
+}
+
+.arcade{
+    padding-top: 56px;
+    margin-bottom: 15px;
+}
+
+.big_head1 p{
+font-size: 18px;
+margin-bottom: 15px;
+}
+.black_bird{
+    margin-top: 277px;
+}
+
+.description1{
+color: #fff;
+padding-top:15px;
+line-height: 1.5 ;
+}
+
+
+/* FOOTER */
+footer{
+    padding: 10px 12%;
+    width: 100%;
+    background-color: #f5f4f6;
+}
+
+footer li a{
+    color:rgb(101, 97, 97);
+    line-height: 1.4;
+    font-size: 12px;
+    padding-bottom: 5px;
+}
+
+footer a:hover{
+    text-decoration: underline;
+ }
+
+.lists{
+    display: flex;
+    justify-content: space-between;
+}
+
+footer p{
+    font-size: 12px;
+    color:rgb(101, 97, 97);
+    text-align: start;
+    padding-bottom: 10px;
+}
+.footer_end a{
+    color: grey;
+    font-size: 12px;
+}
+
+a:hover{
+    text-decoration: underline;
+}
